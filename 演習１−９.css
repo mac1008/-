@@ -62,3 +62,29 @@ footer{
   height:50px;
   background-color:#AAAAAA;
 }
+@media screen and (max-width:768px) {
+  .content{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+  }
+  .content-item{
+    width: 90%;
+    margin:0 auto;
+  }
+  .content-item:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  .content-item:nth-child(2) {
+    margin-bottom: 20px;
+  }
+  .content-image1{
+    width: 100%;
+  }
+  .content-image2{
+    width: 100%;
+  }
+  .content-image3{
+    width: 100%;
+  }
+}

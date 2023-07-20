@@ -76,7 +76,7 @@ footer{
     margin-bottom: 20px;
   }
   .content-item:nth-child(2) {
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
   }
   .content-image1{
     width: 100%;
